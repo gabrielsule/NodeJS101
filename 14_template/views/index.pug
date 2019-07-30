@@ -1,0 +1,11 @@
+html
+    head
+        title=title
+    body
+        h1=message
+
+        if data
+            h2 Productos
+            ul
+                for item in data
+                    li=item.name
